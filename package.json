@@ -1,0 +1,27 @@
+{
+  "name": "firstbot",
+  "version": "1.0.0",
+  "description": "my first bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "mydev": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "automation"
+  ],
+  "author": "ankush ojha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.1",
+    "express-handlebars": "3.0.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.31",
+    "nodemon": "^1.12.1",
+    "prompt-sync": "4.1.5",
+    "watson-developer-cloud": "2.39.2"
+  }
+}

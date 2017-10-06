@@ -1,0 +1,10 @@
+{   
+    "database":{        
+            "hostname":"ds019481.mlab.com",
+            "port":"19481",
+            "databasename":"firststepbot",
+            "dbType":"mongodb",
+            "tableName":"jobdomain",
+            "tableName2":"applicants"
+    }
+}

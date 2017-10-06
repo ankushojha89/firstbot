@@ -1,0 +1,8 @@
+{
+    "server":{
+        "appName":"Recruitment First Step Bot (RFSB)",
+        "port":3700,
+        "environment":"devlopment"
+    }   
+}
+
