@@ -103,7 +103,7 @@ router.post('/', function(req, res, next) {
                 else if(!applicant){  
                     response.output.text[0]=` No application found for ${response.output.applicantId}`;    
                 } else{
-                    response.output.text[0]=` your application status is  ${applicant.applicationStatus}`;    
+                    response.output.text[0]=` ${applicant.name}, your application status is  ${applicant.applicationStatus}. Our HR will contact you on ${applicant.mobile}`;    
                 }                
                 console.log(JSON.stringify(response,undefined,2));
                 return  res.status(200).send({response});
